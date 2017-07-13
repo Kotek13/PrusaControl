@@ -6,12 +6,12 @@
     <message>
         <location filename="gui.py" line="453"/>
         <source>PrusaControl version is </source>
-        <translation type="obsolete">Wersja PrusaControl to </translation>
+        <translation type="obsolete">Wersja PrusaControl: </translation>
     </message>
     <message>
         <location filename="gui.py" line="454"/>
         <source>Slic3r engine version is </source>
-        <translation type="obsolete">Wersja silnika Slic3r to </translation>
+        <translation type="obsolete">Wersja silnika Slic3r: </translation>
     </message>
 </context>
 <context>
@@ -82,37 +82,37 @@
     <message>
         <location filename="controller.py" line="620"/>
         <source>Hollow/Shell - </source>
-        <translation>Puste/Skorupa - </translation>
+        <translation>Brak - </translation>
     </message>
     <message>
         <location filename="controller.py" line="621"/>
         <source>Sparse - </source>
-        <translation>Rzadki - </translation>
+        <translation>Rzadkie - </translation>
     </message>
     <message>
         <location filename="controller.py" line="622"/>
         <source>Light - </source>
-        <translation>Lekki - </translation>
+        <translation>Drobne - </translation>
     </message>
     <message>
         <location filename="controller.py" line="623"/>
         <source>Standard - </source>
-        <translation>Standardowy - </translation>
+        <translation>Standardowe - </translation>
     </message>
     <message>
         <location filename="controller.py" line="624"/>
         <source>Dense - </source>
-        <translation>Gęsty - </translation>
+        <translation>Gęste - </translation>
     </message>
     <message>
         <location filename="controller.py" line="625"/>
         <source>Denser - </source>
-        <translation>Bardziej gęsty - </translation>
+        <translation>Bardzo gęste - </translation>
     </message>
     <message>
         <location filename="controller.py" line="626"/>
         <source>Solid - </source>
-        <translation>Lity - </translation>
+        <translation>Pełne - </translation>
     </message>
 </context>
 <context>
@@ -257,7 +257,7 @@
     <message>
         <location filename="gui.py" line="1395"/>
         <source>Reset</source>
-        <translation>Reset</translation>
+        <translation>Resetuj scenę</translation>
     </message>
     <message>
         <location filename="gui.py" line="1397"/>
@@ -404,18 +404,17 @@
     <message>
         <location filename="gui.py" line="1304"/>
         <source>None</source>
-        <translation>Żaden</translation>
+        <translation>Brak</translation>
     </message>
     <message>
         <location filename="gui.py" line="1304"/>
         <source>Build plate only</source>
-        <translation>Jedynie ze stołu</translation> 
-        <!---Lol wat? Brzmi 2/10 ale nie znam kontekstu---->
+        <translation>Tylko ze stołu</translation> 
     </message>
     <message>
         <location filename="gui.py" line="1304"/>
         <source>Everywhere</source>
-        <translation>Wszędzie</translation>
+        <translation>Dowolne</translation>
     </message>
     <message>
         <location filename="gui.py" line="1302"/>
@@ -426,7 +425,6 @@
         <location filename="gui.py" line="1309"/>
         <source>Brim</source>
         <translation>Brim</translation>
-        <!---Kontekst?---->
     </message>
     <message>
         <location filename="gui.py" line="1308"/>
@@ -456,7 +454,7 @@
     <message>
         <location filename="gui.py" line="1613"/>
         <source>Generate scene with actual options to gcode file</source>
-        <translation>Generuj scenę z właściwymi opcjami do pliku gcode'u</translation>
+        <translation>Generuj scenę z aktualnymi opcjami do pliku gcode</translation>
     </message>
     <message>
         <location filename="gui.py" line="954"/>
@@ -496,8 +494,7 @@
     <message>
         <location filename="gui.py" line="1281"/>
         <source>And color change</source>
-        <translation>I dodaj zmianę koloru</translation>
-        <!---Kontekst---->
+        <translation>Oraz zmiana koloru</translation>
     </message>
     <message>
         <location filename="gui.py" line="1313"/>
@@ -547,27 +544,27 @@
     <message>
         <location filename="gui.py" line="1350"/>
         <source>Undo	Ctrl+Z</source>
-        <translation type="obsolete">Cofnij Ctrl+Z</translation>
+        <translation type="obsolete">Cofnij	Ctrl+Z</translation>
     </message>
     <message>
         <location filename="gui.py" line="1351"/>
         <source>Redo	Ctrl+Y</source>
-        <translation type="obsolete">Ponów  Ctrl+Y</translation>
+        <translation type="obsolete">Ponów	Ctrl+Y</translation>
     </message>
     <message>
         <location filename="gui.py" line="1353"/>
         <source>Copy	Ctrl+C</source>
-        <translation type="obsolete">Kopiuj Ctrl+C</translation>
+        <translation type="obsolete">Kopiuj	Ctrl+C</translation>
     </message>
     <message>
         <location filename="gui.py" line="1354"/>
         <source>Paste	Ctrl+V</source>
-        <translation type="obsolete">Wklej  Ctrl+V</translation>
+        <translation type="obsolete">Wklej	Ctrl+V</translation>
     </message>
     <message>
         <location filename="gui.py" line="1355"/>
         <source>Delete	Del</source>
-        <translation type="obsolete">Usuń   Del</translation>
+        <translation type="obsolete">Usuń	Del</translation>
     </message>
     <message>
         <location filename="gui.py" line="1426"/>
@@ -597,7 +594,7 @@
     <message>
         <location filename="gui.py" line="1459"/>
         <source>Scene is not saved.</source>
-        <translation>Scena nie jest zapisana.</translation>
+        <translation>Scena nie została zapisana.</translation>
     </message>
     <message>
         <location filename="gui.py" line="1460"/>
@@ -647,7 +644,7 @@
     <message>
         <location filename="gui.py" line="1514"/>
         <source>Some objects are in scene</source>
-        <translation>Niektóre obiekty znajdują się na scenie</translation>
+        <translation>Niektóre obiekty znajdują się już na scenie</translation>
     </message>
     <message>
         <location filename="gui.py" line="1515"/>
@@ -677,7 +674,7 @@
     <message>
         <location filename="gui.py" line="1540"/>
         <source>In scene are some objects</source>
-        <translation>Na scenie znajdują się niektóre obiekty</translation>
+        <translation>Na scenie znajdują się juz jakieś obiekty</translation>
     </message>
     <message>
         <location filename="gui.py" line="1489"/>
@@ -775,7 +772,7 @@
     <message>
         <location filename="gui.py" line="526"/>
         <source>Printer variation</source>
-        <translation>Odmiana drukarki</translation>
+        <translation>Konfiguracja drukarki</translation>
     </message>
     <message>
         <location filename="gui.py" line="531"/>
@@ -790,8 +787,7 @@
     <message>
         <location filename="gui.py" line="537"/>
         <source>Analyzer</source>
-        <translation>Analiza</translation>
-        <!-------Kontekst----->
+        <translation>Analizer</translation>
     </message>
     <message>
         <location filename="gui.py" line="540"/>
@@ -819,7 +815,7 @@
     <message>
         <location filename="gui.py" line="668"/>
         <source>About</source>
-        <translation>O nas</translation>
+        <translation>Informacje</translation>
     </message>
     <message>
         <location filename="gui.py" line="684"/>
