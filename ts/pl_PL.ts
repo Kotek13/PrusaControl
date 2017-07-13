@@ -11,7 +11,7 @@
     <message>
         <location filename="gui.py" line="454"/>
         <source>Slic3r engine version is </source>
-        <translation type="obsolete">Wersja silnika Slic3r'a to </translation>
+        <translation type="obsolete">Wersja silnika Slic3r to </translation>
     </message>
 </context>
 <context>
@@ -32,7 +32,7 @@
     <message>
         <location filename="controller.py" line="1833"/>
         <source>Processing triangulated mesh</source>
-        <translation>Przetwarzanie trójkątnej siatki</translation>
+        <translation>Przetwarzanie siatki trójkątnej</translation>
     </message>
     <message>
         <location filename="controller.py" line="1834"/>
@@ -42,7 +42,7 @@
     <message>
         <location filename="controller.py" line="1835"/>
         <source>Preparing infill</source>
-        <translation>Wprzygotowanie wypełnienia</translation>
+        <translation>Przygotowanie wypełnienia</translation>
     </message>
     <message>
         <location filename="controller.py" line="1836"/>
@@ -62,7 +62,7 @@
     <message>
         <location filename="controller.py" line="241"/>
         <source>Object </source>
-        <translation>Objekt</translation>
+        <translation>Objekt </translation>
     </message>
     <message>
         <location filename="controller.py" line="242"/>
@@ -216,7 +216,7 @@
     <message>
         <location filename="gui.py" line="118"/>
         <source>Delete color change point</source>
-        <translation>Usuń punkt miany koloru</translation>
+        <translation>Usuń punkt zmiany koloru</translation>
     </message>
 </context>
 <context>
@@ -307,7 +307,7 @@
     <message>
         <location filename="gui.py" line="1265"/>
         <source>Rotation</source>
-        <translation>Obrót</translation>
+        <translation>Rotacja</translation>
     </message>
     <message>
         <location filename="gui.py" line="1266"/>
@@ -328,7 +328,8 @@
         <location filename="gui.py" line="1274"/>
         <source>Automatic placing of models
  on printing bed in Z axis</source>
-        <translation>Automatyczne umieszczanie modeli na stole drukarki w osi Z</translation>
+        <translation>Automatyczne umieszczanie modeli
+ na stole drukarki w osi Z</translation>
     </message>
     <message>
         <location filename="gui.py" line="1276"/>
@@ -348,12 +349,12 @@
     <message>
         <location filename="gui.py" line="1278"/>
         <source>Advance Settings</source>
-        <translation>Zaawansowane ustawienia</translation>
+        <translation>Ustawienia zaawansowane</translation>
     </message>
     <message>
         <location filename="gui.py" line="1279"/>
         <source>Basic Settings</source>
-        <translation>Podstawowe ustawienia</translation>
+        <translation>Ustawienia podstawowe</translation>
     </message>
     <message>
         <location filename="gui.py" line="1282"/>
@@ -408,7 +409,8 @@
     <message>
         <location filename="gui.py" line="1304"/>
         <source>Build plate only</source>
-        <translation>Jedynie ze stołu</translation>
+        <translation>Jedynie ze stołu</translation> 
+        <!---Lol wat? Brzmi 2/10 ale nie znam kontekstu---->
     </message>
     <message>
         <location filename="gui.py" line="1304"/>
@@ -424,6 +426,7 @@
         <location filename="gui.py" line="1309"/>
         <source>Brim</source>
         <translation>Brim</translation>
+        <!---Kontekst?---->
     </message>
     <message>
         <location filename="gui.py" line="1308"/>
@@ -438,7 +441,7 @@
     <message>
         <location filename="gui.py" line="1320"/>
         <source>Object advance settings</source>
-        <translation>Zaawansowane ustawienia obiektu</translation>
+        <translation>Ustawienia zaawansowane obiektu</translation>
     </message>
     <message>
         <location filename="gui.py" line="887"/>
@@ -458,7 +461,7 @@
     <message>
         <location filename="gui.py" line="954"/>
         <source>PrusaControl </source>
-        <translation type="obsolete">PrusaControl</translation>
+        <translation type="obsolete">PrusaControl </translation>
     </message>
     <message>
         <location filename="gui.py" line="1600"/>
@@ -494,6 +497,7 @@
         <location filename="gui.py" line="1281"/>
         <source>And color change</source>
         <translation>I dodaj zmianę koloru</translation>
+        <!---Kontekst---->
     </message>
     <message>
         <location filename="gui.py" line="1313"/>
@@ -543,27 +547,27 @@
     <message>
         <location filename="gui.py" line="1350"/>
         <source>Undo	Ctrl+Z</source>
-        <translation type="obsolete">Cofnij</translation>
+        <translation type="obsolete">Cofnij Ctrl+Z</translation>
     </message>
     <message>
         <location filename="gui.py" line="1351"/>
         <source>Redo	Ctrl+Y</source>
-        <translation type="obsolete">Ponów</translation>
+        <translation type="obsolete">Ponów  Ctrl+Y</translation>
     </message>
     <message>
         <location filename="gui.py" line="1353"/>
         <source>Copy	Ctrl+C</source>
-        <translation type="obsolete">Kopiuj</translation>
+        <translation type="obsolete">Kopiuj Ctrl+C</translation>
     </message>
     <message>
         <location filename="gui.py" line="1354"/>
         <source>Paste	Ctrl+V</source>
-        <translation type="obsolete">Wklej</translation>
+        <translation type="obsolete">Wklej  Ctrl+V</translation>
     </message>
     <message>
         <location filename="gui.py" line="1355"/>
         <source>Delete	Del</source>
-        <translation type="obsolete">Usuń</translation>
+        <translation type="obsolete">Usuń   Del</translation>
     </message>
     <message>
         <location filename="gui.py" line="1426"/>
@@ -628,7 +632,7 @@
     <message>
         <location filename="gui.py" line="1501"/>
         <source>GCode file is in loading process.</source>
-        <translation>Plik GCode'u jest w trakcie wczytuwania.</translation>
+        <translation>Plik GCode'u jest w trakcie wczytywania.</translation>
     </message>
     <message>
         <location filename="gui.py" line="1502"/>
@@ -663,12 +667,12 @@
     <message>
         <location filename="gui.py" line="1528"/>
         <source>Do you want to close GCode preview and import new file?</source>
-        <translation>Czy chcesz zamknąć podglą GCode'u i wczytać nowy plik?</translation>
+        <translation>Czy chcesz zamknąć podgląd GCode'u i wczytać nowy plik?</translation>
     </message>
     <message>
         <location filename="gui.py" line="1539"/>
         <source>Open project file</source>
-        <translation>Otówrz plik projektu</translation>
+        <translation>Otwórz plik projektu</translation>
     </message>
     <message>
         <location filename="gui.py" line="1540"/>
@@ -693,7 +697,7 @@
     <message>
         <location filename="gui.py" line="1618"/>
         <source>Cancel of reading file</source>
-        <translation>Anuluj czytanie pliku</translation>
+        <translation>Anuluj odczyt pliku</translation>
     </message>
     <message>
         <location filename="gui.py" line="1531"/>
@@ -781,12 +785,13 @@
     <message>
         <location filename="gui.py" line="534"/>
         <source>Automatic placing</source>
-        <translation>automatyczne rozmieszczenie</translation>
+        <translation>Automatyczne rozmieszczenie</translation>
     </message>
     <message>
         <location filename="gui.py" line="537"/>
         <source>Analyzer</source>
         <translation>Analiza</translation>
+        <!-------Kontekst----->
     </message>
     <message>
         <location filename="gui.py" line="540"/>
@@ -809,7 +814,7 @@
     <message>
         <location filename="gui.py" line="643"/>
         <source>Slic3r engine version is </source>
-        <translation>Wersja silnika Slic3r'a to </translation>
+        <translation>Wersja silnika Slic3r to </translation>
     </message>
     <message>
         <location filename="gui.py" line="668"/>
@@ -840,7 +845,7 @@
     <message>
         <location filename="sceneData.py" line="312"/>
         <source>Object </source>
-        <translation type="obsolete">Objekt</translation>
+        <translation type="obsolete">Objekt </translation>
     </message>
     <message>
         <location filename="sceneData.py" line="313"/>
@@ -868,7 +873,7 @@
     <message>
         <location filename="controller.py" line="1756"/>
         <source>Generating perimeters</source>
-        <translation type="obsolete">Gerenrowanie krawędzi</translation>
+        <translation type="obsolete">Generowanie krawędzi</translation>
     </message>
     <message>
         <location filename="controller.py" line="1757"/>
@@ -893,12 +898,12 @@
     <message>
         <location filename="controller.py" line="1761"/>
         <source>Exporting G-code to</source>
-        <translation type="obsolete">Eksportowanie GCode do</translation>
+        <translation type="obsolete">Eksportowanie G-Code do</translation>
     </message>
     <message>
         <location filename="controller.py" line="1762"/>
         <source>Done. Process took</source>
-        <translation type="obsolete">Ukończono. Porces trwał</translation>
+        <translation type="obsolete">Ukończono. Proces trwał</translation>
     </message>
 </context>
 </TS>
